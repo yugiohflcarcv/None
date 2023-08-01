@@ -1,0 +1,92 @@
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Navbar */
+  #nav-bar .avatar {
+    display: none;
+  }
+
+  /* Thông tin các nhân */
+  #about .container {
+    padding: 0;
+  }
+
+  #about .about-content {
+    margin: 10px;
+  }
+
+  /* Thông tin nghề nghiệp */
+  #job-info .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .kinh-nghiem {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .so-thich {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
+
+  .hoc-van {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .ngon-ngu {
+    grid-column: 1 /2;
+    grid-row: 3 / 4;
+  }
+
+  .hoat-dong {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .ki-nang {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  /* Chứng chỉ */
+  #certificate .container {
+    padding: 0;
+  }
+
+  #certificate .grid {
+    gap: 40px;
+  }
+
+  #certificate .certificate-list {
+    flex-direction: column;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+  }
+
+  #certificate .certificate-picture {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+  }
+
+  /* Dự án */
+  #project .container {
+    padding: 40px 5px;
+  }
+
+  #project .grid {
+    gap: 5px;
+    width: 100%;
+  }
+
+  /* Project Charter */
+  #project-charter .container {
+    width: 100%;
+  }
+  #project-charter .grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
